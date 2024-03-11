@@ -14,18 +14,42 @@ bool estMajeur(int age)
     }
 }
 
-////////////////////////
-// FONCTION exposant //
+//////////////////////
+// FONCTION EXPO    //
 //////////////////////
 
-int exposant(int nbre, int exp)
+
+///////////////////
+// FONCTION TVA //
+/////////////////
+
+float TVA(int prix)
 {
-    int resultat;
-
-    resultat = pow(nbre, exp);
-
-    return resultat;
+    float prix_ttc = prix * 1.196f;
+    return prix_ttc;
 }
+
+/////////////////////////
+// FONCTION plusGrand //
+///////////////////////
+
+int plusGrand(int a, int b, int c)
+{
+    int max = a;
+
+    if (b > max)
+    {
+        max = b;
+    }
+
+    if (c > max)
+    {
+        max = c;
+    }
+
+    return max;
+}
+
 
 
 
@@ -39,7 +63,3 @@ int exposant(int nbre, int exp)
 
 
 
-
-
-
-//Fonctions réalisées par l'étudiant 3 :
