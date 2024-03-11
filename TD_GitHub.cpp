@@ -14,9 +14,19 @@ bool estMajeur(int age)
     }
 }
 
+////////////////////////
+// FONCTION exposant //
 //////////////////////
-// FONCTION EXPO    //
-//////////////////////
+
+int exposant(int nbre, int exp)
+{
+    int resultat;
+
+    resultat = pow(nbre, exp);
+
+    return resultat;
+}
+
 
 
 ///////////////////
