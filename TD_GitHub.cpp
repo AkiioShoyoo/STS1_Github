@@ -1,15 +1,15 @@
-//Fonctions réalisées par l'étudiant 1 :
+//Fonctions réalisées par l'étudiant 1 : CHOMEL Cantin
+
+
+
+https://github.com/AkiioShoyoo/STS1_Github
 
 
 
 
 
 
-
-
-
-
-//Fonctions réalisées par l'étudiant 2 :
+//Fonctions réalisées par l'étudiant 2 : RAFFERTY Justin
 
 
 
