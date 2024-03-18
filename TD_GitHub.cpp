@@ -1,9 +1,7 @@
-//Fonctions réalisées par l'étudiant 1 : CHOMEL Cantin
+// * Fonctions réalisées par l'étudiant 1 : CHOMEL Cantin
 
-/////////////////////////
-// FONCTION estMajeur //
-///////////////////////
 
+// * Code de la fonction "estMajeur".
 bool estMajeur(int age)
 {
     if (age >= 18) {
@@ -14,10 +12,8 @@ bool estMajeur(int age)
     }
 }
 
-////////////////////////
-// FONCTION exposant //
-//////////////////////
 
+// * Code de la fonction "exposant".
 int exposant(int nbre, int exp)
 {
     int resultat;
@@ -27,22 +23,14 @@ int exposant(int nbre, int exp)
     return resultat;
 }
 
-
-
-///////////////////
-// FONCTION TVA //
-/////////////////
-
+// * Code de la fonction "TVA".
 float TVA(int prix)
 {
     float prix_ttc = prix * 1.196f;
     return prix_ttc;
 }
 
-/////////////////////////
-// FONCTION plusGrand //
-///////////////////////
-
+// * Code de la fonction "plusGrand".
 int plusGrand(int a, int b, int c)
 {
     int max = a;
@@ -60,12 +48,7 @@ int plusGrand(int a, int b, int c)
     return max;
 }
 
-
-
-
-
-
-//Fonctions réalisées par l'étudiant 2 : RAFFERTY Justin
+// * Fonctions réalisées par l'étudiant 2 : RAFFERTY Justin
 
 
 
